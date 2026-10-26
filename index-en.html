@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#170d14">
+    <meta name="description" content="Jéssica Maria's portfolio. Systems Analysis and Development student focused on Full Stack development.">
+
+    <title>Jéssica Maria — Full Stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo" aria-label="Jéssica Maria, home">J<span>.</span></a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-glow"></div>
+
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <a
+                        class="hero-language-switch"
+                        href="index.html"
+                        lang="pt-BR"
+                        aria-label="Ver este site em português"
+                    >
+                        <span aria-hidden="true">🇧🇷</span>
+                        PT
+                    </a>
+
+                    <div class="hero-status">
+                        <span class="status-dot"></span>
+                        TECHNOLOGY STUDENT
+                    </div>
+
+                    <p class="hero-overline">HELLO, I'M JÉSSICA MARIA</p>
+
+                    <h1>
+                        Turning<br>
+                        ideas into
+                        <span class="hero-highlight"> solutions</span><span class="hero-period">.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I study and build projects that connect interfaces,
+                        programming, and data. I'm building my path in technology,
+                        turning what I learn into practical applications and
+                        growing with every new challenge.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore projects <span aria-hidden="true">↗</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Let's talk</a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a
+                            href="https://github.com/Jessyolvr234-rgb"
+                            class="hero-social-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/jessica-mariacordeiro"
+                            class="hero-social-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a
+                            href="assets/curriculo-jessica.pdf"
+                            class="btn-cv"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View resume
+                        </a>
+                    </div>
+
+                    <div class="hero-bottom">
+                        <span>FOCUS</span>
+                        <span class="hero-bottom-line"></span>
+                        <span>FULL STACK DEVELOPMENT</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="portrait-frame">
+                        <div class="portrait-backdrop"></div>
+                        <img
+                            class="hero-portrait"
+                            src="images/jessica-profissional.jpg"
+                            alt="Professional portrait of Jéssica Maria"
+                        >
+                        <div class="portrait-number">01 / 06</div>
+                    </div>
+
+                    <div class="floating-note note-top">
+                        <span class="note-symbol">&lt;/&gt;</span>
+                        <div>
+                            <strong>Code &amp; create</strong>
+                            <span>Learning by doing</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-note note-bottom">
+                        <span class="note-star">✳</span>
+                        <div>
+                            <strong>Always growing</strong>
+                            <span>One project at a time</span>
+                        </div>
+                    </div>
+
+                    <span class="hero-decoration decoration-one"></span>
+                    <span class="hero-decoration decoration-two"></span>
+                </div>
+            </div>
+
+            <div class="hero-footer container">
+                <span>JOÃO PESSOA, BRAZIL</span>
+                <a href="#about">DISCOVER MORE <span aria-hidden="true">↓</span></a>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about-container">
+                <div class="about-main">
+                    <span class="section-label">01 — ABOUT ME</span>
+                    <h2 class="about-title">Beyond<br><span>the code.</span></h2>
+                    <p class="about-lead">
+                        I'm a Systems Analysis and Development student passionate
+                        about turning ideas into digital solutions.
+                    </p>
+
+                    <div class="about-biography">
+                        <p>
+                            I'm studying <strong>Systems Analysis and Development
+                            at Unipê</strong>, with an interest in software development,
+                            web systems, and building digital solutions.
+                        </p>
+                        <p>
+                            My journey in technology is driven by curiosity about
+                            how applications work, from the interface people use
+                            to the logic that processes information and the
+                            structure that organizes data.
+                        </p>
+                        <p>
+                            I'm currently improving my skills in
+                            <strong>programming, web development, databases,
+                            systems modeling, and interface prototyping</strong>.
+                            Through academic and personal projects, I put what I
+                            learn into practice and explore each stage of software
+                            development.
+                        </p>
+                        <p>
+                            I enjoy organizing ideas, planning solutions, and
+                            exploring different ways to turn requirements into
+                            functional projects. I also value continuous learning,
+                            creativity, and attention to detail.
+                        </p>
+                        <p>
+                            My goal is to earn a
+                            <strong>software development internship</strong>,
+                            especially in Full Stack, where I can contribute to
+                            real projects, learn from experienced professionals,
+                            and keep growing as a developer.
+                        </p>
+                    </div>
+                </div>
+
+                <aside class="about-values">
+                    <div class="values-heading">
+                        <h3>What I value in software development</h3>
+                        <p>
+                            Principles that guide how I learn, plan, and build
+                            digital solutions.
+                        </p>
+                    </div>
+
+                    <div class="values-grid">
+                        <article class="value-card">
+                            <span class="value-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M7 9h4M7 13h7"/></svg>
+                            </span>
+                            <h4>Seeing the whole system</h4>
+                            <p>Understanding how interfaces, business logic, and data connect to form an application.</p>
+                        </article>
+
+                        <article class="value-card">
+                            <span class="value-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24"><path d="M9 5h11M9 12h11M9 19h11"/><circle cx="4" cy="5" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="19" r="1"/></svg>
+                            </span>
+                            <h4>Planning and organization</h4>
+                            <p>Structuring requirements, organizing information, and planning before implementation.</p>
+                        </article>
+
+                        <article class="value-card">
+                            <span class="value-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 5h4M10 18h4"/></svg>
+                            </span>
+                            <h4>Usability and responsiveness</h4>
+                            <p>Creating clear, accessible interfaces that adapt to different devices.</p>
+                        </article>
+
+                        <article class="value-card">
+                            <span class="value-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24"><path d="m12 3 2.8 5.7L21 12l-6.2 3.3L12 21l-2.8-5.7L3 12l6.2-3.3L12 3Z"/></svg>
+                            </span>
+                            <h4>Attention to detail</h4>
+                            <p>Valuing clean code, visual consistency, and quality in every delivery.</p>
+                        </article>
+
+                        <article class="value-card">
+                            <span class="value-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="6"/><path d="m9.5 12 1.7 1.7 3.5-3.5"/></svg>
+                            </span>
+                            <h4>Continuous learning</h4>
+                            <p>Studying, practicing, exploring alternatives, and improving with every project.</p>
+                        </article>
+
+                        <article class="value-card">
+                            <span class="value-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M16 15a5 5 0 0 1 5 5"/></svg>
+                            </span>
+                            <h4>Collaboration and communication</h4>
+                            <p>Sharing ideas, documenting decisions, and staying open to feedback and teamwork.</p>
+                        </article>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <div class="skills-container">
+                <header class="skills-intro">
+                    <span class="section-label">02 — SKILLS</span>
+                    <h2 class="skills-title">Technologies I'm <span>exploring.</span></h2>
+                    <p class="skills-description">
+                        Skills I'm developing through study, practice, and projects.
+                    </p>
+                    <div class="skills-divider"></div>
+                    <div class="skills-quote">
+                        <span class="quote-star">✦</span>
+                        <p>Every new technology is an opportunity to learn, create, and grow.</p>
+                        <div class="skills-signature">
+                            <span>Learn. Create. Grow.</span>
+                            <div></div>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="skills-content">
+                    <div class="skills-group-heading">
+                        <span class="group-symbol">⌘</span>
+                        <div>
+                            <h3>Technology and development</h3>
+                            <p>Languages, concepts, and tools I'm applying in academic and personal projects.</p>
+                        </div>
+                    </div>
+
+                    <div class="skills-grid">
+                        <article class="skill-card">
+                            <div class="skill-card-top"><span class="skill-icon"><i data-lucide="code-2"></i></span><span class="skill-number">01</span></div>
+                            <h4>Programming</h4>
+                            <p>Programming logic, algorithms, and development fundamentals using C and Python.</p>
+                            <div class="skill-tags"><span>C</span><span>Python</span><span>Logic</span><span>Algorithms</span></div>
+                            <span class="skill-level">In development</span>
+                        </article>
+
+                        <article class="skill-card">
+                            <div class="skill-card-top"><span class="skill-icon"><i data-lucide="panels-top-left"></i></span><span class="skill-number">02</span></div>
+                            <h4>Web development</h4>
+                            <p>Building page structures, styling interfaces, and learning web interactivity.</p>
+                            <div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <span class="skill-level">In development</span>
+                        </article>
+
+                        <article class="skill-card">
+                            <div class="skill-card-top"><span class="skill-icon"><i data-lucide="database"></i></span><span class="skill-number">03</span></div>
+                            <h4>Databases</h4>
+                            <p>Organizing information, modeling data, and structuring databases for systems.</p>
+                            <div class="skill-tags"><span>ERD</span><span>SQL</span><span>Data modeling</span></div>
+                            <span class="skill-level">Learning</span>
+                        </article>
+
+                        <article class="skill-card">
+                            <div class="skill-card-top"><span class="skill-icon"><i data-lucide="git-branch"></i></span><span class="skill-number">04</span></div>
+                            <h4>Version control</h4>
+                            <p>Organizing projects, tracking changes, and publishing repositories.</p>
+                            <div class="skill-tags"><span>Git</span><span>GitHub</span></div>
+                            <span class="skill-level">Learning</span>
+                        </article>
+
+                        <article class="skill-card">
+                            <div class="skill-card-top"><span class="skill-icon"><i data-lucide="workflow"></i></span><span class="skill-number">05</span></div>
+                            <h4>Systems modeling</h4>
+                            <p>Gathering requirements, organizing business rules, and documenting solutions.</p>
+                            <div class="skill-tags"><span>Requirements</span><span>Diagrams</span><span>Documentation</span></div>
+                            <span class="skill-level">In development</span>
+                        </article>
+
+                        <article class="skill-card">
+                            <div class="skill-card-top"><span class="skill-icon"><i data-lucide="panels-top-left"></i></span><span class="skill-number">06</span></div>
+                            <h4>UI/UX and prototyping</h4>
+                            <p>Planning interfaces, considering user experience, and prototyping systems.</p>
+                            <div class="skill-tags"><span>Figma</span><span>Wireframes</span><span>Design</span></div>
+                            <span class="skill-level">In development</span>
+                        </article>
+                    </div>
+
+                    <div class="ai-tools">
+                        <div class="skills-group-heading">
+                            <span class="group-symbol">✦</span>
+                            <div>
+                                <h3>AI and productivity tools</h3>
+                                <p>Tools I use to support learning, creativity, and project development.</p>
+                            </div>
+                        </div>
+
+                        <div class="ai-grid">
+                            <article class="ai-card">
+                                <div class="ai-card-top"><span class="ai-logo chatgpt-logo">✳</span></div>
+                                <h4>ChatGPT</h4>
+                                <p>Support for studying, answering questions, and organizing ideas.</p>
+                            </article>
+                            <article class="ai-card">
+                                <div class="ai-card-top"><span class="ai-logo claude-logo">✺</span></div>
+                                <h4>Claude</h4>
+                                <p>Support with prompts, exploring ideas, and developing projects.</p>
+                            </article>
+                            <article class="ai-card">
+                                <div class="ai-card-top"><span class="ai-logo lovable-logo">♡</span></div>
+                                <h4>Lovable</h4>
+                                <p>Exploring ideas and creating web applications with AI assistance.</p>
+                            </article>
+                            <article class="ai-card">
+                                <div class="ai-card-top"><span class="ai-logo figma-logo">F</span></div>
+                                <h4>Figma</h4>
+                                <p>Prototyping interfaces and planning user experiences.</p>
+                                <span class="ai-card-note">Design tool</span>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="skills-footer">
+                        <span>✦</span>
+                        <p>I study, practice, and grow with every project.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-heading projects-header">
+                    <span class="section-eyebrow">03 — PROJECTS</span>
+                    <h2>Projects in <span class="highlight">the spotlight.</span></h2>
+                    <p>Explore some of the systems I'm planning and building to put my skills into practice.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-visual project-organiza">
+                            <div class="project-preview">
+                                <span class="preview-label">ORGANIZA</span>
+                                <div class="preview-line"></div>
+                                <div class="preview-line short"></div>
+                                <div class="preview-items"><span>✓</span><span>▦</span><span>◷</span></div>
+                            </div>
+                            <span class="project-category">Productivity</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-status"><span class="status-dot"></span>In development</span>
+                            <h3>Organiza</h3>
+                            <p>A task, calendar, and event organization system for individuals and small teams, designed around sharing and collaboration.</p>
+                            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Database</span></div>
+                            <a href="https://github.com/Jessyolvr234-rgb/Organiza/blob/main/README.md" class="project-link" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual project-clinic">
+                            <div class="project-preview clinic-preview">
+                                <span class="preview-label">CLINIC MANAGEMENT</span>
+                                <div class="preview-items"><span>+</span><span>▦</span><span>♡</span></div>
+                                <div class="preview-line"></div>
+                                <div class="preview-line short"></div>
+                            </div>
+                            <span class="project-category">Healthcare</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-status"><span class="status-dot"></span>In development</span>
+                            <h3>Clinic Management System</h3>
+                            <p>A system for organizing patients, professionals, recurring appointments, sessions, attendance records, and reports.</p>
+                            <div class="project-tags"><span>Requirements</span><span>Modeling</span><span>UX/UI</span><span>Web</span></div>
+                            <a href="https://github.com/Jessyolvr234-rgb/sistema-clinica-infantil" class="project-link" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual project-finance">
+                            <div class="project-preview finance-preview">
+                                <span class="preview-label">DUOFINANCE</span>
+                                <div class="preview-balance"></div>
+                                <div class="preview-chart"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+                            </div>
+                            <span class="project-category">Finance</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-status"><span class="status-dot"></span>In development</span>
+                            <h3>DuoFinance</h3>
+                            <p>An individual and shared finance app for tracking expenses, income, bills, cards, savings, and financial progress.</p>
+                            <div class="project-tags"><span>UX/UI</span><span>Dashboard</span><span>Finance</span><span>Web</span></div>
+                            <a href="https://github.com/" class="project-link" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual project-clinic">
+                            <div class="project-preview clinic-preview">
+                                <span class="preview-label">LOST &amp; FOUND</span>
+                                <div class="preview-items"><span>?</span><span>⌕</span><span>✓</span></div>
+                                <div class="preview-line"></div>
+                                <div class="preview-line short"></div>
+                            </div>
+                            <span class="project-category">Community</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-status"><span class="status-dot"></span>In development</span>
+                            <h3>Lost and Found</h3>
+                            <p>A project for sharing information about lost or found items and helping it reach the people looking for them.</p>
+                            <div class="project-tags"><span>Organization</span><span>Community</span><span>Web</span></div>
+                            <a href="https://github.com/Jessyolvr234-rgb/achados-perdidos" class="project-link" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-footer">
+                    <p>Every project is an opportunity to learn, experiment, and grow.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="trajectory section" id="journey">
+            <div class="container">
+                <div class="section-heading trajectory-header">
+                    <span class="section-eyebrow">MY GROWTH</span>
+                    <h2>My <span class="highlight">journey.</span></h2>
+                    <p>A path of learning, practice, and growth in technology.</p>
+                </div>
+
+                <div class="trajectory-timeline">
+                    <article class="trajectory-item">
+                        <div class="trajectory-marker"><span>01</span></div>
+                        <div class="trajectory-card">
+                            <span class="trajectory-period">THE BEGINNING</span>
+                            <h3>Discovering technology</h3>
+                            <p>Starting to explore how systems work and how programming can turn ideas into solutions.</p>
+                            <div class="trajectory-tags"><span>Logic</span><span>Fundamentals</span></div>
+                        </div>
+                    </article>
+                    <article class="trajectory-item">
+                        <div class="trajectory-marker"><span>02</span></div>
+                        <div class="trajectory-card">
+                            <span class="trajectory-period">ACADEMIC STUDIES</span>
+                            <h3>Systems Analysis and Development</h3>
+                            <p>Studying systems analysis, modeling, and development, including programming, requirements, databases, and user experience.</p>
+                            <div class="trajectory-tags"><span>Systems</span><span>Modeling</span><span>Programming</span></div>
+                        </div>
+                    </article>
+                    <article class="trajectory-item">
+                        <div class="trajectory-marker"><span>03</span></div>
+                        <div class="trajectory-card">
+                            <span class="trajectory-period">HANDS-ON PROJECTS</span>
+                            <h3>Turning knowledge into projects</h3>
+                            <p>Building ideas like Organiza, DuoFinance, and a clinic management system while applying planning and interface design.</p>
+                            <div class="trajectory-tags"><span>Projects</span><span>UX/UI</span><span>Web development</span></div>
+                        </div>
+                    </article>
+                    <article class="trajectory-item">
+                        <div class="trajectory-marker"><span>04</span></div>
+                        <div class="trajectory-card">
+                            <span class="trajectory-period">NEXT GOAL</span>
+                            <h3>Professional growth</h3>
+                            <p>Deepening my technical skills, building more complete projects, and preparing for internship opportunities in technology.</p>
+                            <div class="trajectory-tags"><span>Practice</span><span>Portfolio</span><span>Internship</span></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-heading contact-header">
+                    <span class="section-eyebrow">LET'S TALK</span>
+                    <h2>Get in <span class="highlight">touch.</span></h2>
+                    <p>Have an opportunity, an idea, or want to talk about technology? I'd be happy to hear from you.</p>
+                </div>
+
+                <div class="contact-intro">
+                    <div class="contact-intro-icon" aria-hidden="true">&lt;/&gt;</div>
+                    <h3>Let's build something together.</h3>
+                    <p>I'm always learning and open to internships, collaboration, and project opportunities.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <article class="contact-card">
+                        <div class="contact-icon" aria-hidden="true">@</div>
+                        <h3>Email</h3>
+                        <p>For professional conversations, opportunities, and proposals.</p>
+                        <a href="mailto:jessicacordeiro2120@gmail.com" class="contact-link">Send an email <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="contact-card">
+                        <div class="contact-icon" aria-hidden="true">GH</div>
+                        <h3>GitHub</h3>
+                        <p>Explore my projects, code, and growth as a developer.</p>
+                        <a href="https://github.com/Jessyolvr234-rgb" class="contact-link" target="_blank" rel="noopener noreferrer">View profile <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="contact-card">
+                        <div class="contact-icon" aria-hidden="true">in</div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me about professional opportunities in technology.</p>
+                        <a href="https://www.linkedin.com/in/jessica-mariacordeiro" class="contact-link" target="_blank" rel="noopener noreferrer">Connect <span aria-hidden="true">↗</span></a>
+                    </article>
+                </div>
+
+                <div class="contact-footer">
+                    <span class="contact-availability"><span class="status-dot"></span>Open to new opportunities</span>
+                    <p>Every connection can be the start of a great project.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-bottom">
+        <p>
+            © <span id="current-year"></span> Jéssica Maria.
+            All rights reserved. Made with care
+            <span class="footer-heart" aria-hidden="true">♥</span>.
+        </p>
+        <a href="#home" class="footer-back-top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+</body>
+</html>

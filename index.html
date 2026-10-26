@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#170d14">
+
+    <meta name="description" content="Portfólio de Jéssica Maria, estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento Full Stack.">
+
+    <title>Jéssica Maria — Full Stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+>
+
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar container" aria-label="Navegação principal">
+
+            <a href="#inicio" class="logo">
+                J<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#trajetoria" class="nav-link">Trajetória</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="hero-glow"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <a
+                        class="hero-language-switch"
+                        href="index-en.html"
+                        lang="en"
+                        aria-label="View this website in English"
+                    >
+                        <span aria-hidden="true">🇺🇸</span>
+                        EN
+                    </a>
+
+                    <div class="hero-status">
+                        <span class="status-dot"></span>
+                        ESTUDANTE DE TECNOLOGIA
+                    </div>
+
+                    <p class="hero-overline">
+                        OLÁ, EU SOU JÉSSICA MARIA
+                    </p>
+
+                    <h1>
+                        Transformando<br>
+                        ideias em
+                        <span class="hero-highlight"> soluções</span><span class="hero-period">.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Estudo e desenvolvo projetos que conectam interfaces,
+                        programação e dados. Estou construindo minha trajetória
+                        na tecnologia, transformando conhecimentos em aplicações
+                        práticas e evoluindo a cada novo desafio.
+                    </p>
+
+
+<!-- Botões principais -->
+<div class="hero-actions">
+    <a href="#projetos" class="btn btn-primary">
+        Explorar projetos <span>↗</span>
+    </a>
+
+    <a href="#contato" class="btn btn-secondary">
+        Vamos conversar
+    </a>
+
+</div>
+
+<!-- Redes sociais abaixo dos botões -->
+<div class="hero-socials">
+    <a
+        href="https://github.com/SEU-USUARIO"
+        class="hero-social-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+    >
+        <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a
+        href="https://www.linkedin.com/in/SEU-PERFIL/"
+        class="hero-social-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+    >
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+
+    <a
+        href="assets/curriculo-jessica.pdf"
+        class="btn-cv"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Ver currículo
+    </a>
+</div>
+
+
+                    <div class="hero-bottom">
+                        <span>FOCO EM</span>
+                        <span class="hero-bottom-line"></span>
+                        <span>FULL STACK DEVELOPMENT</span>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="portrait-frame">
+                        <div class="portrait-backdrop"></div>
+
+                        <img
+                            class="hero-portrait"
+                            src="images/jessica-profissional.jpg"
+                            alt="Retrato profissional de Jéssica Maria"
+                        >
+
+                        <div class="portrait-number">01 / 06</div>
+                    </div>
+
+                    <div class="floating-note note-top">
+                        <span class="note-symbol">&lt;/&gt;</span>
+                        <div>
+                            <strong>Code &amp; create</strong>
+                            <span>Aprendendo na prática</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-note note-bottom">
+                        <span class="note-star">✳</span>
+                        <div>
+                            <strong>Em evolução</strong>
+                            <span>Um projeto de cada vez</span>
+                        </div>
+                    </div>
+
+                    <span class="hero-decoration decoration-one"></span>
+                    <span class="hero-decoration decoration-two"></span>
+
+                </div>
+
+            </div>
+
+            <div class="hero-footer container">
+                <span>JOÃO PESSOA, BRASIL</span>
+                <a href="#sobre">
+                    DESCUBRA MAIS <span aria-hidden="true">↓</span>
+                </a>
+            </div>
+
+        </section>
+<!-- SOBRE-MIM -->
+<section class="about section" id="sobre">
+  <div class="about-container">
+
+    <!-- COLUNA ESQUERDA: APRESENTAÇÃO -->
+    <div class="about-main">
+      <span class="section-label">01 — SOBRE MIM</span>
+
+      <h2 class="about-title">
+        Muito além<br />
+        <span>do código.</span>
+      </h2>
+
+      <p class="about-lead">
+        Sou uma estudante de Análise e Desenvolvimento de Sistemas
+        apaixonada por transformar ideias em soluções digitais.
+      </p>
+
+      <div class="about-biography">
+        <p>
+          Sou estudante de <strong>Análise e Desenvolvimento de Sistemas
+          no Unipê</strong>, interessada em desenvolvimento de software,
+          criação de sistemas web e construção de soluções digitais.
+        </p>
+
+        <p>
+          Minha jornada na tecnologia é marcada pela vontade de entender
+          como as aplicações funcionam, desde a interface que o usuário
+          utiliza até a lógica que processa as informações e a estrutura
+          que organiza os dados.
+        </p>
+
+        <p>
+          Atualmente, venho aprimorando meus conhecimentos em
+          <strong>programação, desenvolvimento web, bancos de dados,
+          modelagem de sistemas e prototipação de interfaces</strong>.
+          Por meio de projetos acadêmicos e pessoais, busco colocar em
+          prática o que aprendo e compreender melhor cada etapa do
+          desenvolvimento de software.
+        </p>
+
+        <p>
+          Gosto de organizar ideias, estruturar soluções e explorar
+          diferentes possibilidades para transformar requisitos em
+          projetos funcionais. Também valorizo o aprendizado contínuo,
+          a criatividade e a atenção aos detalhes durante o desenvolvimento.
+        </p>
+
+        <p>
+          Meu objetivo é conquistar uma
+          <strong>oportunidade de estágio em desenvolvimento de software</strong>,
+          com interesse especial na área Full Stack, para contribuir com
+          projetos reais, aprender com profissionais experientes e
+          continuar evoluindo tecnicamente.
+        </p>
+      </div>
+    </div>
+
+    <!-- COLUNA DIREITA: VALORES PROFISSIONAIS -->
+    <aside class="about-values">
+      <div class="values-heading">
+
+        <h3>O que valorizo no desenvolvimento</h3>
+
+        <p>
+          Princípios que orientam minha forma de aprender,
+          planejar e construir soluções digitais.
+        </p>
+      </div>
+
+      <div class="values-grid">
+
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="13" rx="2"/>
+              <path d="M8 21h8M12 17v4M7 9h4M7 13h7"/>
+            </svg>
+          </span>
+
+          <h4>Visão completa do sistema</h4>
+
+          <p>
+            Entender como interfaces, regras de negócio e dados
+            se conectam para formar uma aplicação.
+          </p>
+        </article>
+
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M9 5h11M9 12h11M9 19h11"/>
+              <circle cx="4" cy="5" r="1"/>
+              <circle cx="4" cy="12" r="1"/>
+              <circle cx="4" cy="19" r="1"/>
+            </svg>
+          </span>
+
+          <h4>Planejamento e organização</h4>
+
+          <p>
+            Estruturar requisitos, organizar informações e planejar
+            as etapas antes de implementar uma solução.
+          </p>
+        </article>
+
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <rect x="6" y="2" width="12" height="20" rx="2"/>
+              <path d="M10 5h4M10 18h4"/>
+            </svg>
+          </span>
+
+          <h4>Usabilidade e responsividade</h4>
+
+          <p>
+            Buscar interfaces claras, acessíveis e adaptáveis
+            a diferentes dispositivos.
+          </p>
+        </article>
+
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="m12 3 2.8 5.7L21 12l-6.2 3.3L12 21l-2.8-5.7L3 12l6.2-3.3L12 3Z"/>
+            </svg>
+          </span>
+
+          <h4>Atenção aos detalhes</h4>
+
+          <p>
+            Valorizar a organização do código, a consistência
+            visual e a qualidade de cada entrega.
+          </p>
+        </article>
+
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 3v3M12 18v3M3 12h3M18 12h3"/>
+              <circle cx="12" cy="12" r="6"/>
+              <path d="m9.5 12 1.7 1.7 3.5-3.5"/>
+            </svg>
+          </span>
+
+          <h4>Aprendizado contínuo</h4>
+
+          <p>
+            Estudar, praticar, pesquisar alternativas e aprimorar
+            meus conhecimentos a cada projeto.
+          </p>
+        </article>
+
+        <article class="value-card">
+          <span class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <circle cx="9" cy="8" r="3"/>
+              <circle cx="17" cy="9" r="2.5"/>
+              <path d="M3 20v-2a6 6 0 0 1 12 0v2M16 15a5 5 0 0 1 5 5"/>
+            </svg>
+          </span>
+
+          <h4>Colaboração e comunicação</h4>
+
+          <p>
+            Compartilhar ideias, documentar decisões e manter
+            abertura para feedback e trabalho em equipe.
+          </p>
+        </article>
+
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+<section class="skills section" id="habilidades">
+  <div class="skills-container">
+    <header class="skills-intro">
+      <span class="section-label">02 — HABILIDADES</span>
+
+      <h2 class="skills-title">
+        Tecnologias que estou
+        <span>explorando.</span>
+      </h2>
+
+      <p class="skills-description">
+        Conhecimentos que venho desenvolvendo por meio
+        dos estudos, da prática e dos meus projetos.
+      </p>
+
+      <div class="skills-divider"></div>
+
+      <div class="skills-quote">
+
+        <p>
+          Cada nova tecnologia é uma oportunidade de
+          aprender, criar e evoluir.
+        </p>
+
+        <div class="skills-signature">
+          <span>Aprender. Criar. Evoluir.</span>
+          <div></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- COLUNA DIREITA -->
+    <div class="skills-content">
+      <div class="skills-group-heading">
+        <div>
+          <h3>Tecnologias e desenvolvimento</h3>
+          <p>
+            Linguagens, conceitos e ferramentas que venho
+            estudando e aplicando em projetos acadêmicos e pessoais.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- 01: PROGRAMAÇÃO -->
+        <article class="skill-card">
+          <div class="skill-card-top">
+            <span class="skill-icon">
+              <i data-lucide="code-2"></i>
+            </span>
+            <span class="skill-number">01</span>
+          </div>
+
+          <h4>Programação</h4>
+
+          <p>
+            Estudo de lógica de programação, algoritmos
+            e fundamentos do desenvolvimento utilizando C e Python.
+          </p>
+
+          <div class="skill-tags">
+            <span>C</span>
+            <span>Python</span>
+            <span>Lógica</span>
+            <span>Algoritmos</span>
+          </div>
+
+          <span class="skill-level">
+            Em desenvolvimento
+          </span>
+        </article>
+
+        <!-- 02: DESENVOLVIMENTO WEB -->
+        <article class="skill-card">
+          <div class="skill-card-top">
+            <span class="skill-icon">
+              <i data-lucide="panels-top-left"></i>
+            </span>
+            <span class="skill-number">02</span>
+          </div>
+
+          <h4>Desenvolvimento web</h4>
+
+          <p>
+            Estruturação de páginas, estilização de interfaces
+            e aprendizado de interatividade para a web.
+          </p>
+
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <span class="skill-level">
+            Em desenvolvimento
+          </span>
+        </article>
+
+        <!-- 03: BANCO DE DADOS -->
+        <article class="skill-card">
+          <div class="skill-card-top">
+            <span class="skill-icon">
+              <i data-lucide="database"></i>
+            </span>
+            <span class="skill-number">03</span>
+          </div>
+
+          <h4>Banco de dados</h4>
+
+          <p>
+            Organização de informações, modelagem de dados
+            e estruturação de bancos para sistemas.
+          </p>
+
+          <div class="skill-tags">
+            <span>DER</span>
+            <span>SQL</span>
+            <span>Modelagem</span>
+          </div>
+
+          <span class="skill-level">
+            Em aprendizado
+          </span>
+        </article>
+
+        <!-- 04: VERSIONAMENTO -->
+        <article class="skill-card">
+          <div class="skill-card-top">
+            <span class="skill-icon">
+              <i data-lucide="git-branch"></i>
+            </span>
+            <span class="skill-number">04</span>
+          </div>
+
+          <h4>Versionamento</h4>
+
+          <p>
+            Organização de projetos, histórico de alterações
+            e publicação de repositórios.
+          </p>
+
+          <div class="skill-tags">
+            <span>Git</span>
+            <span>GitHub</span>
+          </div>
+
+          <span class="skill-level">
+            Em aprendizado
+          </span>
+        </article>
+
+        <!-- 05: MODELAGEM DE SISTEMAS -->
+        <article class="skill-card">
+          <div class="skill-card-top">
+            <span class="skill-icon">
+              <i data-lucide="workflow"></i>
+            </span>
+            <span class="skill-number">05</span>
+          </div>
+
+          <h4>Modelagem de sistemas</h4>
+
+          <p>
+            Levantamento de requisitos, organização de regras
+            de negócio e documentação de soluções.
+          </p>
+
+          <div class="skill-tags">
+            <span>Requisitos</span>
+            <span>Diagramas</span>
+            <span>Documentação</span>
+          </div>
+
+          <span class="skill-level">
+            Em desenvolvimento
+          </span>
+        </article>
+
+        <!-- 06: UI/UX -->
+        <article class="skill-card">
+          <div class="skill-card-top">
+            <span class="skill-icon">
+              <i data-lucide="panels-top-left"></i>
+            </span>
+            <span class="skill-number">06</span>
+          </div>
+
+          <h4>UI/UX e prototipação</h4>
+
+          <p>
+            Planejamento de interfaces, experiência do usuário
+            e criação de protótipos de sistemas.
+          </p>
+
+          <div class="skill-tags">
+            <span>Figma</span>
+            <span>Wireframes</span>
+            <span>Design</span>
+          </div>
+
+          <span class="skill-level">
+            Em desenvolvimento
+          </span>
+        </article>
+
+      </div>
+
+      <!-- FERRAMENTAS DE IA -->
+      <div class="ai-tools">
+
+        <div class="skills-group-heading">
+          <div>
+            <h3>Ferramentas de IA e produtividade</h3>
+            <p>
+              Ferramentas que me ajudam a estudar, criar,
+              organizar e desenvolver melhores soluções.
+            </p>
+          </div>
+        </div>
+
+        <div class="ai-grid">
+
+          <article class="ai-card">
+            <div class="ai-card-top">
+              <span class="ai-logo chatgpt-logo">✳</span>
+            </div>
+
+            <h4>ChatGPT</h4>
+
+            <p>
+              Apoio aos estudos, organização de ideias,
+              resolução de dúvidas e desenvolvimento de soluções.
+            </p>
+          </article>
+
+          <article class="ai-card">
+            <div class="ai-card-top">
+              <span class="ai-logo claude-logo">✺</span>
+            </div>
+
+            <h4>Claude</h4>
+
+            <p>
+              Apoio na elaboração de prompts, análise de ideias
+              e desenvolvimento de projetos.
+            </p>
+          </article>
+
+          <article class="ai-card">
+            <div class="ai-card-top">
+              <span class="ai-logo lovable-logo">♡</span>
+            </div>
+
+            <h4>Lovable</h4>
+
+            <p>
+              Criação de aplicações web e prototipação
+              de ideias de sistemas.
+            </p>
+          </article>
+
+          <article class="ai-card">
+            <div class="ai-card-top">
+              <span class="ai-logo figma-logo">F</span>
+            </div>
+
+            <h4>Figma</h4>
+
+            <p>
+              Prototipação de interfaces e planejamento
+              da experiência do usuário.
+            </p>
+
+            <span class="ai-card-note">
+              Ferramenta de design
+            </span>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="skills-footer">
+        <p>Estudo, pratico e evoluo todos os dias.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========================================
+     04 — SEÇÃO DE PROJETOS
+========================================= -->
+<section class="projects section" id="projetos">
+    <div class="container">
+
+        <!-- Cabeçalho da seção -->
+        <div class="section-heading projects-header">
+            <span class="section-eyebrow">MEU PORTFÓLIO</span>
+
+            <h2>
+                Projetos em <span class="highlight">destaque</span>
+            </h2>
+
+            <p>
+                Conheça alguns sistemas que estou planejando e desenvolvendo
+                para colocar meus conhecimentos em prática.
+            </p>
+        </div>
+
+        <!-- Grade dos projetos -->
+        <div class="projects-grid">
+
+            <!-- PROJETO 1: ORGANIZA -->
+            <article class="project-card">
+
+                <div class="project-visual project-organiza">
+                    <div class="project-preview">
+                        <span class="preview-label">ORGANIZA</span>
+                        <div class="preview-line"></div>
+                        <div class="preview-line short"></div>
+
+                        <div class="preview-items">
+                            <span>✓</span>
+                            <span>▦</span>
+                            <span>◷</span>
+                        </div>
+                    </div>
+
+                    <span class="project-category">Produtividade</span>
+                </div>
+
+                <div class="project-content">
+                    <span class="project-status">
+                        <span class="status-dot"></span>
+                        Em desenvolvimento
+                    </span>
+
+                    <h3>Organiza</h3>
+
+                    <p>
+                        Sistema de organização de tarefas, compromissos e
+                        eventos para pessoas e pequenas equipes, com proposta
+                        de calendário, compartilhamento e colaboração.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Banco de dados</span>
+                    </div>
+
+                    <a
+                        href="https://github.com/Jessyolvr234-rgb/Organiza/blob/main/README.md"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Ver projeto <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- PROJETO 2: SISTEMA DE GESTÃO CLÍNICA -->
+            <article class="project-card">
+
+                <div class="project-visual project-clinic">
+                    <div class="project-preview clinic-preview">
+                        <span class="preview-label">GESTÃO CLÍNICA</span>
+                        <div class="preview-items">
+                            <span>+</span>
+                            <span>▦</span>
+                            <span>♡</span>
+                        </div>
+                        <div class="preview-line"></div>
+                        <div class="preview-line short"></div>
+                    </div>
+
+                    <span class="project-category">Gestão de saúde</span>
+                </div>
+
+                <div class="project-content">
+                    <span class="project-status">
+                        <span class="status-dot"></span>
+                        Em desenvolvimento
+                    </span>
+
+                    <h3>Sistema de Gestão Clínica</h3>
+
+                    <p>
+                        Sistema para organizar pacientes, profissionais,
+                        agendamentos recorrentes, atendimentos, registros
+                        de presença e relatórios de produção.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Requisitos</span>
+                        <span>Modelagem</span>
+                        <span>UX/UI</span>
+                        <span>Web</span>
+                    </div>
+
+                    <a
+                        href="https://github.com/Jessyolvr234-rgb/sistema-clinica-infantil"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Ver projeto <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- PROJETO 3: DUOFINANCE -->
+            <article class="project-card">
+
+                <div class="project-visual project-finance">
+                    <div class="project-preview finance-preview">
+                        <span class="preview-label">DUOFINANCE</span>
+                        <div class="preview-balance"></div>
+
+                        <div class="preview-chart">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <span class="project-category">Finanças</span>
+                </div>
+
+                <div class="project-content">
+                    <span class="project-status">
+                        <span class="status-dot"></span>
+                        Em desenvolvimento
+                    </span>
+
+                    <h3>DuoFinance</h3>
+
+                    <p>
+                        Aplicativo de controle financeiro individual e
+                        compartilhado, com despesas, receitas, contas fixas,
+                        cartões, reservas e acompanhamento da evolução
+                        patrimonial.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>UX/UI</span>
+                        <span>Dashboard</span>
+                        <span>Finanças</span>
+                        <span>Web</span>
+                    </div>
+
+                    <!-- Troque o endereço pelo repositório real -->
+                    <a
+                        href="https://github.com/"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Ver projeto <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- PROJETO 4: ACHADOS E PERDIDOS -->
+            <article class="project-card">
+
+                <div class="project-visual project-clinic">
+                    <div class="project-preview clinic-preview">
+                        <span class="preview-label">ACHADOS &amp; PERDIDOS</span>
+                        <div class="preview-items">
+                            <span>?</span>
+                            <span>⌕</span>
+                            <span>✓</span>
+                        </div>
+                        <div class="preview-line"></div>
+                        <div class="preview-line short"></div>
+                    </div>
+
+                    <span class="project-category">Utilidade pública</span>
+                </div>
+
+                <div class="project-content">
+                    <span class="project-status">
+                        <span class="status-dot"></span>
+                        Em desenvolvimento
+                    </span>
+
+                    <h3>Achados e Perdidos</h3>
+
+                    <p>
+                        Projeto para divulgar itens perdidos ou encontrados
+                        e facilitar que as informações cheguem às pessoas
+                        que procuram por eles.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Organização</span>
+                        <span>Comunidade</span>
+                        <span>Web</span>
+                    </div>
+
+                    <a
+                        href="https://github.com/Jessyolvr234-rgb/achados-perdidos"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Ver projeto <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Rodapé da seção -->
+        <div class="projects-footer">
+            <p>
+                Cada projeto representa uma oportunidade de aprender,
+                experimentar e evoluir.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================================
+     02 — SEÇÃO TRAJETÓRIA
+========================================= -->
+<section class="trajectory section" id="trajetoria">
+    <div class="container">
+
+        <!-- Cabeçalho da seção -->
+        <div class="section-heading trajectory-header">
+            <span class="section-eyebrow">MINHA EVOLUÇÃO</span>
+
+            <h2>
+                Minha <span class="highlight">trajetória</span>
+            </h2>
+
+            <p>
+                Uma jornada de aprendizado, prática e desenvolvimento
+                no universo da tecnologia.
+            </p>
+        </div>
+
+        <!-- Linha do tempo -->
+        <div class="trajectory-timeline">
+
+            <!-- Etapa 1 -->
+            <article class="trajectory-item">
+                <div class="trajectory-marker">
+                    <span>01</span>
+                </div>
+
+                <div class="trajectory-card">
+                    <span class="trajectory-period">INÍCIO DA JORNADA</span>
+
+                    <h3>Descobrindo a tecnologia</h3>
+
+                    <p>
+                        Início da jornada de aprendizado em tecnologia,
+                        explorando como os sistemas funcionam e como a
+                        programação pode transformar ideias em soluções.
+                    </p>
+
+                    <div class="trajectory-tags">
+                        <span>Lógica</span>
+                        <span>Fundamentos</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Etapa 2 -->
+            <article class="trajectory-item">
+                <div class="trajectory-marker">
+                    <span>02</span>
+                </div>
+
+                <div class="trajectory-card">
+                    <span class="trajectory-period">FORMAÇÃO ACADÊMICA</span>
+
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+
+                    <p>
+                        Formação voltada à análise, modelagem e desenvolvimento
+                        de sistemas, com estudos de programação, requisitos,
+                        banco de dados e experiência do usuário.
+                    </p>
+
+                    <div class="trajectory-tags">
+                        <span>ADS</span>
+                        <span>Modelagem</span>
+                        <span>Programação</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Etapa 3 -->
+            <article class="trajectory-item">
+                <div class="trajectory-marker">
+                    <span>03</span>
+                </div>
+
+                <div class="trajectory-card">
+                    <span class="trajectory-period">PROJETOS PRÁTICOS</span>
+
+                    <h3>Transformando conhecimento em projetos</h3>
+
+                    <p>
+                        Desenvolvimento de ideias como Organiza, DuoFinance
+                        e um sistema de gestão clínica, aplicando conceitos
+                        de planejamento, organização e design de interfaces.
+                    </p>
+
+                    <div class="trajectory-tags">
+                        <span>Projetos</span>
+                        <span>UX/UI</span>
+                        <span>Desenvolvimento web</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Etapa 4 -->
+            <article class="trajectory-item">
+                <div class="trajectory-marker">
+                    <span>04</span>
+                </div>
+
+                <div class="trajectory-card">
+                    <span class="trajectory-period">PRÓXIMO OBJETIVO</span>
+
+                    <h3>Evolução profissional</h3>
+
+                    <p>
+                        Aprofundar os conhecimentos técnicos, desenvolver
+                        projetos cada vez mais completos e me preparar para
+                        oportunidades de estágio na área de tecnologia.
+                    </p>
+
+                    <div class="trajectory-tags">
+                        <span>Prática contínua</span>
+                        <span>Portfólio</span>
+                        <span>Estágio em TI</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     06 — SEÇÃO DE CONTATO
+========================================= -->
+<section class="contact section" id="contato">
+    <div class="container">
+
+        <!-- Cabeçalho da seção -->
+        <div class="section-heading contact-header">
+            <span class="section-eyebrow">VAMOS CONVERSAR</span>
+
+            <h2>
+                Entre em <span class="highlight">contato</span>
+            </h2>
+
+            <p>
+                Tem uma oportunidade, uma ideia ou deseja conversar
+                sobre tecnologia? Será um prazer entrar em contato.
+            </p>
+        </div>
+
+        <!-- Apresentação e chamada para contato -->
+        <div class="contact-intro">
+            <div class="contact-intro-icon" aria-hidden="true">
+                &lt;/&gt;
+            </div>
+
+            <h3>Vamos construir algo juntos?</h3>
+
+            <p>
+                Estou em constante aprendizado e aberta a oportunidades
+                de estágio, colaboração e desenvolvimento de projetos.
+            </p>
+        </div>
+
+        <!-- Cartões com os canais de contato -->
+        <div class="contact-grid">
+
+            <!-- E-mail -->
+            <article class="contact-card">
+                <div class="contact-icon" aria-hidden="true">
+                    @
+                </div>
+
+                <h3>E-mail</h3>
+
+                <p>
+                    Para conversas profissionais, oportunidades e propostas.
+                </p>
+
+                <!-- Substitua pelo seu e-mail verdadeiro -->
+                <a
+                    href="mailto:jessicacordeiro2120@gmail.com"
+                    class="contact-link"
+                >
+                    Enviar e-mail
+                    <span aria-hidden="true">↗</span>
+                </a>
+            </article>
+
+            <!-- GitHub -->
+            <article class="contact-card">
+                <div class="contact-icon" aria-hidden="true">
+                    GH
+                </div>
+
+                <h3>GitHub</h3>
+
+                <p>
+                    Conheça meus projetos, códigos e evolução como
+                    desenvolvedora.
+                </p>
+
+                <!-- Substitua pelo endereço do seu perfil -->
+                <a
+                    href="https://github.com/Jessyolvr234-rgb"
+                    class="contact-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Ver perfil
+                    <span aria-hidden="true">↗</span>
+                </a>
+            </article>
+
+            <!-- LinkedIn -->
+            <article class="contact-card">
+                <div class="contact-icon" aria-hidden="true">
+                    in
+                </div>
+
+                <h3>LinkedIn</h3>
+
+                <p>
+                    Para conexões profissionais e oportunidades na área
+                    de tecnologia.
+                </p>
+
+                <!-- Substitua pelo endereço do seu perfil -->
+                <a
+                    href="https://www.linkedin.com/"
+                    class="contact-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Conectar-se
+                    <span aria-hidden="true">↗</span>
+                </a>
+            </article>
+
+        </div>
+
+        <!-- Chamada final -->
+        <div class="contact-footer">
+            <span class="contact-availability">
+                <span class="status-dot"></span>
+                Aberta a novas oportunidades
+            </span>
+
+            <p>
+                Cada conexão pode ser o início de um grande projeto.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer-bottom">
+    <p>
+        © <span id="current-year"></span> Jéssica Maria.
+        Todos os direitos reservados.
+    </p>
+
+    <a href="#inicio" class="footer-back-top">
+        Voltar ao topo
+        <span aria-hidden="true">↑</span>
+    </a>
+</footer>
+
+</body>
+</html>
